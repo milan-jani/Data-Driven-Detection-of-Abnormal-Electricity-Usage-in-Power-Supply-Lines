@@ -73,7 +73,7 @@ After balancing the training set, the models became much better at detecting the
 Analysis: The graph confirms that **Delta_I** and **Power_Factor** are the most significant indicators of electricity theft.
 
 ### Confusion Matrix
-![Confusion Matrix](Confusion_Matrix.png)
+![Confusion Matrix](confusion_matrix.png)
 Analysis: The confusion matrix shows a significant reduction in False Negatives after applying SMOTE, meaning more theft cases are now correctly identified.
 
 ### ROC Curve
