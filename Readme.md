@@ -50,11 +50,11 @@ We tested multiple models including Logistic Regression, Random Forest, XGBoost,
 ## 4. Visual Evaluation
 
 ### Model Comparison
-![Model Comparison](model_comparison.png)
+![Model Comparison](assets/model_comparison.png)
 Analysis: While Random Forest and XGBoost have higher accuracy, **AdaBoost** significantly outperforms them in **Recall**, making it the most effective model for detecting electricity theft.
 
 ### Feature Importance (Best Model)
-![Feature Importance](feature_importance.png)
+![Feature Importance](assets/feature_importance.png)
 Analysis: Delta_I remains the strongest indicator for theft detection across all models.
 
 ---
