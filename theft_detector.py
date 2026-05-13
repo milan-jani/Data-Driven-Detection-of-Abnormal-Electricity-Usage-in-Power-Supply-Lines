@@ -7,10 +7,10 @@ import warnings
 warnings.filterwarnings("ignore")
 
 def load_system():
-    ada = joblib.load('adaboost_model.joblib')
-    rf = joblib.load('random_forest_model.joblib')
-    sc = joblib.load('scaler.joblib')
-    return ada, rf, sc
+    ada = joblib.load('models/adaboost_model.joblib')
+    rf = joblib.load('models/random_forest_model.joblib')
+    scaler = joblib.load('models/scaler.joblib')
+    return ada, rf, scaler
 
 # Models ko memory mein rakhne ke liye global load
 try:
